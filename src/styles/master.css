@@ -1,0 +1,82 @@
+
+  .centerContent {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+  }
+  .CardContent {
+    padding: 25px 60px 13px 20px;
+  }
+  .outercontent {
+    background-image: url(lee.jpg);
+  }
+  .searchBarContent {
+    background-image: url("https://static.wixstatic.com/media/5305c5_1644b8eb4f0d4ed7bf307cb7d2a6ab28~mv2_d_6000_4000_s_4_2.jpeg/v1/fill/w_2028,h_2068,al_c,q_90,usm_0.66_1.00_0.01/5305c5_1644b8eb4f0d4ed7bf307cb7d2a6ab28~mv2_d_6000_4000_s_4_2.webp");
+  }
+  .topcorner{
+    position:absolute;
+    top:50;
+    right:785;
+  }
+  .centerContent {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .emptyCardContent{
+      padding: 135px 60px 13px 20px;
+  }
+  .topRightCorner{
+    position: absolute;
+    right: 0px;
+    width: 340px;
+    padding: 10px;
+    margin-left:100px;
+  }
+  .foodRowSeperator{
+  padding-top: 10px;
+  }
+  .chipRowSeperator{
+  padding-top: 10px;
+  }
+  .emptyContainer{
+    background-image: url(lee.jpg);
+    height: 100vh;
+  }
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    background-image: url(footer.png);
+  }
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .searchButton {
+    margin-left: 20px;
+  }
+
+  /**
+  * Align seacrh filed and button horizontaly
+  **/
+  #wrapper {
+    display: flex;
+
+  }
+  #first {
+
+      padding-right: 10px;
+  }
+  #second {
+
+  }
